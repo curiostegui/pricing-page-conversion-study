@@ -1,7 +1,7 @@
 
 ## Introduction
 
-Subscription SaaS (Software-as-a-Service) businesses rely heavily on their pricing page to manage current users and attract customers. It is a crucial touchpoint in the customer journey. A poorly set up pricing page can lead to disinterest and cause users to abandon the website, even if they are interested in the product.
+Subscription SaaS (Software-as-a-Service) businesses rely heavily on their pricing page to manage current users and attract customers. It is an important touchpoint in the customer journey. A poorly set up pricing page can lead to disinterest and cause users to abandon the website, even if they are interested in the product.
 
 In this hypothetical scenario, the company is looking to revamp its payment plan. Currently, the pricing page uses a monthly/annual toggle format that presents two plan options with minimal context.
 
