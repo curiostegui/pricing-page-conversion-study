@@ -13,7 +13,20 @@ It presents little information on the value of higher-tier payment plans for pro
 
 Given the difficulty in finding real company SaaS user behavioral data, I generated a synthetic dataset using Claude (Anthropic). In collaboration, I tried to simulate real SaaS subscription data, which included user demographics, pricing page interactions, and conversion results.
 
-**Techniques**
+**Statistical Methods**
 
-The analysis will combine statistical testing with casual inference methods to evaluate the experiment.
+The analysis will combine statistical testing with causal inference methods to evaluate the experiment.
+
+**A/B Testing:** Classical hypothesis test that tests whether variation in behaviors on a website is statistically significant. Power analysis will be performed first to confirm that our sample size is large enough to detect a meaningful effect. Both primary and secondary metrics will be tested using the appropriate statistical test. Results will be reported with p-values and lift figures.
+
+**Causal Inference:** To complement the results of the A/B test, causal inference techniques will be used to determine the confidence in the results:
+- CUPED (Controlled-experiment Using Pre-Experiment Data) was used to test whether pre-experiment user behavior could reduce variation in the treatment effect estimate.
+- Difference-in-Differences (DiD) was used to measure whether the treatment made meaningful user engagement changes outside of natural trends by seeing how groups changed from pre-experiment to post-experiment.
+- OLS Regression looked at the treatment effect while also pairing it with multiple user-level characteristics to see the stability of the treatment coefficient across different regression models.
+
+**Other Studies to be Performed**
+
+**Subgroup Analysis:** I'll be examining the conversion lift broken down across four segments: plan type, device type, age group and country. Interactions test will then be used to confirm whether the difference across segments was statistically significant.
+
+**Behavioral Funnel:** A customer behavior funnel was created to see where in the user journey the treatment had the most impact. Each stage was analyzed seperately for both control and treatment groups. Using overall funnel rates and step-over-step conversion rates, I looked at what the overall pipeline health is. 
 
