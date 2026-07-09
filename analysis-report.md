@@ -10,10 +10,13 @@ It presents little information on the value of higher-tier payment plans for pro
 ## Experiment
 
 A redesigned pricing page 3-tier plan with plan options side by side with supporting information was developed and tested.
-The experiment ran for 30 days from January 15 to February 14, 2024. 5000 users were randomly assigned and evenly split into two groups:
+The experiment ran for 30 days from January 15 to February 14, 2024. 
 
-**Control group (2500 users):** Saw the prior monthly/annual toggle pricing page. 
-**Treatment group (2500 users):** Saw the new 3-tier pricing page.
+5000 users were randomly assigned and evenly split into two groups:
+
+- Control group (2500 users): Saw the prior monthly/annual toggle pricing page. 
+
+- Treatment group (2500 users): Saw the new 3-tier pricing page.
 
 The primary objective is to test whether the redesigned pricing page increases the rate at which users convert from free to a paid subscription.
 
