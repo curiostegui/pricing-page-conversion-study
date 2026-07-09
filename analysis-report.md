@@ -5,7 +5,7 @@ Subscription SaaS (Software-as-a-Service) businesses rely heavily on their prici
 
 In this hypothetical scenario, a SaaS company is looking to revamp its payment plan. Currently, the pricing page uses a monthly/annual toggle format that presents two plan options with minimal context.
 
-It offers little support for prospective customers in the value of upgrading to higher-tier payment plans. The conversion rates for free trial users, as a result, have plateaued. If there were a more robust payment page, the pricing experience for users could improve.
+It presents little information on the value of higher-tier payment plans for prospective customers. As a result, the conversion rates for free trial users have plateaued. If there were a more robust payment page, the pricing experience for users could improve.
 
 ## Methodology
 
