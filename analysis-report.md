@@ -52,10 +52,9 @@ The analysis will combine statistical testing with causal inference methods to e
 
 ## Data Overview
 
-There are 5,000 rows and 18 columns that are comprised of a mix of identifiers (user_id), experiment assignment (experiment_group, experiment_start_date), 
-user background (signup_date, country, device_type, etc.), pre-experiment behavior (engagement_score_pre, sessions_pre_30d, etc.), pricing page behavior (pricing_page_views, time_on_pricing_page_sec) and post outcome (converted_to_paid, plan_chosen, etc.) data.
+There are 5,000 rows and 18 columns that are comprised of a mix of user background, pricing page behavior, and pre/post experiment data.
 
-# Table 1: Variable Names and Definitions
+---------------------------
 
 | Variable Name | Definition |
 |---|---|
