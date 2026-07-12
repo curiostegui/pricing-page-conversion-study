@@ -90,3 +90,6 @@ I also performed chi-square and t-tests to see if the distributions among the va
 ![](images/Screenshot-2026-07-11-212442.png)<!-- -->
 
 ## Results
+
+![](images/Screenshot-2026-07-11-222800.png)<!-- -->
+
