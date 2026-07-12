@@ -95,9 +95,33 @@ I also performed chi-square and t-tests to see if the distributions among the va
 
 I tested whether the new pricing page improved conversion.  Overall, all the metrics resulted in desirable outcomes. Our primary metric, conversion rate, improved in the treatment group. However an increase in conversion but a decrease in our guardrail metrics would have weakened our results. Thankfully, we didn't see a negative impact. The churn rate went down, revenue per user and annual plan mix went up. Three of our metrics were also found to be statistically signficant (conversion rate, revenue per user, and churn rate).
 
-
 ![](images/Screenshot-2026-07-11-224120.png)<!-- -->
 
 ### Causal Inference
 
-feferfefefef
+The A/B test showed us that the new pricing page improved conversions. Causal inference will dig deeper to make sure the treatment (pricing page) was the sole driver of increased conversions, and that there aren't any outside influences.
+
+#### CUPED
+
+Using CUPED, I checked to see whether pre-experiment user behavior had any influence on the conversion lift.  The CUPED analysis showed that pre-experiment user behavior was a weak predictor of conversion (r<0.03). This strengthens my confidence in the A/B test results.
+
+#### DiD
+
+I performed the Difference-in-Differences (DID) technique to confirm that the improvement in user engagement in the treatment group happened directly because of the treatment as opposed to a natural change over time.
+
+We can see that pre-experiment sessions in the control (7.52) and treatment (7.46) started from the same baseline which means the parallel trends assumption holds. This means that in the absence of treatment both groups would've followed a similar trend.
+
+I also discovered through the DiD estimate that treatment users had 1.28 more sessions user over the 30 day window than without the new pricing page. The p=0.0000 tells us that the engagment difference didn't happen by random chance.
+
+Unadjusted and adjusted DiD is indentical (1.2816) which shows that the imbalances found before in the exploration had no effect on engagement.
+
+
+#### OLS Regression
+
+I performed linear regression to see if specific characteristics about the users, outside of the treatment, explain the conversion observed. There are three models that I created to look at what moves the needle.
+
+Started with a baseline model with just the treatment - which says that users in the treatment group converted (2.44pp) more than the control group. When adding different covariates, I found there to be a minimal difference as the coefficient moved from 2.44pp to 2.76pp.
+
+I also found that the plan type [free trial] was the most important user characteristic predicting conversion  (+20.66pp). Free users convert at higher rates than monthly or annual subscribers
+
+
