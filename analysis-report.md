@@ -132,4 +132,9 @@ Started with a baseline model with just the treatment - which says that users in
 
 I also found that the plan type [free trial] was the most important user characteristic predicting conversion  (+20.66pp). Free users convert at higher rates than monthly or annual subscribers
 
+![](images/Screenshot-2026-07-12-151648.png)<!-- -->
+
+-------------------------------------------------------------
+
+![](images/Screenshot-2026-07-12-151455.png)<!-- -->
 
