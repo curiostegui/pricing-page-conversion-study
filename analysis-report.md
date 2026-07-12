@@ -85,5 +85,8 @@ When exploring the dataset, I found the following:
 - Searched for missing values. The only variable with nulls is days_to_conversion, which is normal since not every user converted within the 30-day period.
 - With the exception of plan_at_experiment_start and country, distributions for every variable were close to an even split. There were slightly more free trial users and US users in the treatment group.
 
-I also performed chi-square and t-tests to see if the distributions among the variables were significantly different between control and treatment groups.
+I also performed chi-square and t-tests to see if the distributions among the variables were significantly different between control and treatment groups. The distribution difference found on plan_at_experiment_start and country was found to be statistically significant. These two variables will need to be examined closely as they may influence our results outside of the treatment, which can skew our results.
 
+![](images/Screenshot-2026-07-11-212442.png)<!-- -->
+
+## Results
