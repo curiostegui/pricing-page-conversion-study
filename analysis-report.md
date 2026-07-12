@@ -106,7 +106,9 @@ The A/B test showed us that the new pricing page improved conversions. Causal in
 Using CUPED, I checked to see whether pre-experiment user behavior had any influence on the conversion lift.  The CUPED analysis showed that pre-experiment user behavior was a weak predictor of conversion (r<0.03). This strengthens my confidence in the A/B test results.
 
 I utilized CUPED analysis to try to examine and remove any variance that is explained by pre experiment user behavior (users that were going to anyway) to leave a cleaner estimate of the treatment effect. The CUPED analysis showed that pre-experiment user behavior was a weak predictor of conversion (r<0.03). This strengthens my confidence in the A/B test results.
- 
+
+ ![](images/Screenshot-2026-07-12-141023.png)<!-- -->
+
 
 #### DiD
 
