@@ -79,4 +79,11 @@ There are 5,000 rows and 18 columns that are comprised of a mix of user backgrou
 
 ## Data Exploration
 
+When exploring the dataset, I found the following:
+
+-Data types were properly assigned.
+-Searched for missing values. The only variable with nulls is days_to_conversion, which is normal since not every user converted within the 30-day period.
+-With the exception of plan_at_experiment_start and country, distributions for every variable were close to an even split. There were slightly more free trial users and US users in the treatment group.
+
+I also performed chi-square and t-tests to see if the distributions among the variables were significantly different between control and treatment groups.
 
