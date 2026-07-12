@@ -150,6 +150,12 @@ The free trial users are the only group to have a positive lift (+6.19%) and sta
 
 Desktop (+3.60pp) and mobile (+2.72pp) are both significant and show positive lifts. Tablet users however, show a negative trend (-2.83pp). Though not significant, it's still worth investigating.
 
+![](images/Screenshot-2026-07-12-172627.png)<!-- -->
+
+-------------------------------------------------------------
+
+![](images/Screenshot-2026-07-12-172656.png)<!-- -->
+
 
 #### Behavioral Funnel
 
