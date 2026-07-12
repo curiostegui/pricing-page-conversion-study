@@ -142,8 +142,17 @@ I also found that the plan type [free trial] was the most important user charact
 
 #### Subgroup Analysis
 
+To further understand who is most responsive to the treatment, I will be looking into further demographic breakdown of the users. I'll be examining conversion life across plan type, device type, age bucket and country. I will calculate conversions rates for control and treatment, compute the life for each segment, and test for statistical significance using chi-square test.
+
+In the results we can see that only three segments reached statistical signifiance: free trial (plan type), desktop (device type) and mobile (device type). The other segments such as age groups, countries did not reach significance, likely because of the small sample size.
+
+The free trial users are the only group to have a positive lift (+6.19%) and statistical significance (p=0.0004). This tells us that the overall lift is being driven by the free trial segment. This impact is also shown when performing the interaction tests, as the treatment x free_trial group has the best estimate and is statistically significant.
+
+Desktop (+3.60pp) and mobile (+2.72pp) are both significant and show positive lifts. Tablet users however, show a negative trend (-2.83pp). Though not significant, it's still worth investigating.
+
+
 #### Behavioral Funnel
 
-#### Recommendations
+### Recommendations
 
-#### Limitations
+### Limitations
