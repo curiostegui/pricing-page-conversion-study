@@ -98,5 +98,6 @@ I tested whether the new pricing page improved conversion.  Overall, all the met
 
 ![](images/Screenshot-2026-07-11-224120.png)<!-- -->
 
+### Causal Inference
 
 feferfefefef
