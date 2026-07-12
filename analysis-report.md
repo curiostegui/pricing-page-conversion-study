@@ -91,6 +91,11 @@ I also performed chi-square and t-tests to see if the distributions among the va
 
 ## Results
 
+### A/B Test
+
+I tested whether the new pricing page improved conversion.  Overall, all the metrics resulted in desirable outcomes. Our primary metric, conversion rate, improved in the treatment group. However an increase in conversion but a decrease in our guardrail metrics would have weakened our results. Thankfully, we didn't see a negative impact. The churn rate went down, revenue per user and annual plan mix went up. Three of our metrics were also found to be statistically signficant (conversion rate, revenue per user, and churn rate).
+
+
 ![](images/Screenshot-2026-07-11-224120.png)<!-- -->
 
 
