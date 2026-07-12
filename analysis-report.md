@@ -140,3 +140,10 @@ I also found that the plan type [free trial] was the most important user charact
 
 ![](images/Screenshot-2026-07-12-151455.png)<!-- -->
 
+#### Subgroup Analysis
+
+#### Behavioral Funnel
+
+#### Recommendations
+
+#### Limitations
