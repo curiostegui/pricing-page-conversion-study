@@ -105,20 +105,23 @@ The A/B test showed us that the new pricing page improved conversions. Causal in
 
 Using CUPED, I checked to see whether pre-experiment user behavior had any influence on the conversion lift.  The CUPED analysis showed that pre-experiment user behavior was a weak predictor of conversion (r<0.03). This strengthens my confidence in the A/B test results.
 
-I utilized CUPED analysis to try to examine and remove any variance that is explained by pre experiment user behavior (users that were going to anyway) to leave a cleaner estimate of the treatment effect. The CUPED analysis showed that pre-experiment user behavior was a weak predictor of conversion (r<0.03). This strengthens my confidence in the A/B test results.
-
- ![](images/Screenshot-2026-07-12-141023.png)<!-- -->
-
+![](images/Screenshot-2026-07-12-141023.png)<!-- -->
 
 #### DiD
 
-I performed the Difference-in-Differences (DID) technique to confirm that the improvement in user engagement in the treatment group happened directly because of the treatment as opposed to a natural change over time.
+I used the Difference-in-Differences (DID) technique to confirm that the improvement in user engagement in the treatment group happened directly because of the treatment as opposed to a natural change over time.
 
 We can see that pre-experiment sessions in the control (7.52) and treatment (7.46) started from the same baseline which means the parallel trends assumption holds. This means that in the absence of treatment both groups would've followed a similar trend.
 
 I also discovered through the DiD estimate that treatment users had 1.28 more sessions user over the 30 day window than without the new pricing page. The p=0.0000 tells us that the engagment difference didn't happen by random chance.
 
 Unadjusted and adjusted DiD is indentical (1.2816) which shows that the imbalances found before in the exploration had no effect on engagement.
+
+![](images/Screenshot-2026-07-12-145828.png)<!-- -->
+
+-------------------------------------------------------------
+
+![](images/Screenshot-2026-07-12-150303.png)<!-- -->
 
 
 #### OLS Regression
