@@ -187,8 +187,9 @@ Given the positive results, we should rollout the new pricing page, with an init
 
 ## Limitations
 
-- It's important to note that this data was synthetically generated to simulate SaaS subscription user behavior. It does not fully capture the complexities of actual data that might dilute the effect of the treatment such as seasonality and multi-device behavior.
--   
+- It's important to note that this data was synthetically generated to simulate SaaS subscription user behavior. It does not fully capture the complexities of actual data that might dilute the effect of the treatment, such as seasonality and multi-device behavior.
+- There were some randomization balance issues with plan type at the experiment start and country. In the real world, there would need to be a closer look at how assignments in the control and treatment groups are done.
+- Although there was an improvement in annual plan subscriptions, it was not found to be statistically significant. This is likely because of the limited converters - 213 in the control and 274 in the treatment group. A larger sample size would be needed to find statistical significance.
 
 ## Next steps
 
