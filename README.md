@@ -16,15 +16,17 @@ The goal is to determine whether the redesigned pricing page will lead to greate
 
 ## Key Insights
 
-- Uncovered key behavior patterns driving skip behavior. This includes the role of valence (emotional tone) and genre throughout a listening session, as well as temporal trends on when skips are more likely to occur.
-- Observed that lyrics in most models had a negative impact, with only the Elastic Net model showing improvements in accuracy (+2.67%). 
-- Developed general streaming model recommendations for various audiences: streaming platforms, record labels, users, and data teams.
+- The pricing page improved the conversion rate from 8.5% to 11.0%. It was also found to be statistically significant (p=0.0042).
+- Revenue per user also improved by $ 0.25, and 30-day churn decreased by 1.87%.
+- The conversion lift was primarily from the free trial users (+6.19%) - making them a priority segment for the rollout of the new page.
+- Three different Causal Inference techniques found that the conversion was a result of the treatment and not because of pre-treatment user behavior, randomization imbalances, or natural trends.
+- The largest treatment impact in the behavioral funnel occured around the engagement stage
+- Desktop users had the highest conversion lift(+3.60), followed by mobile users (+2.72%). Tablet users showed a negative trend.
 
 
  ## Impact
- Analyzed my personal skip behavior and delivered general insights on how to keep users engaged on streaming platforms, and how data teams can better capture listeners’ interests through the algorithm.
-
-#### Keywords: Python, Tableau, Natural Language Processing (NLP), XGBoost, Elastic Net Logistic Regression, Neural Networks, LSTM, Recurrent Neural Network (RNN), Sequence Modeling, Data Visualization, Streaming Services
+ Delivered a recommendation plan that included the rollout of the redesigned pricing page, prioritizing free-trial users. In this plan, follow-up experiments and pain points were identified.
  
+#### Keywords: Python, Tableau, A/B testing, Causal Inference, Difference-in-Differences, CUPED, OLS Regression, Statistical Testing, Chi-square Test, Mann-Whitney U, Power Analysis, Subgroup Analysis, Funnel Analysis, SaaS, Subscription Analysis, Product Analytics
  
  
