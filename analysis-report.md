@@ -159,7 +159,7 @@ Desktop (+3.60pp) and mobile (+2.72pp) are both significant and show positive li
 
 #### Behavioral Funnel
 
-I'll be creating and examining the behavioral funnel, which looks at which stage of the customer journey do users. In looking at the funnel, users are most active in the engagement stage. The treatment group (61.7%) spent more time engaged with the page than the control group. Looking at step-over-step rates however, we can see a lower conversion for the treatment (17.8%) than control group (23.1%). This is likely  because the treatment group already had more engaged users already (61.7% vs. 36.8%). We can also see that retention improved in the treatment group as well (+2.48%).
+The behavioral funnel, looks at which stage of the customer journey users convert most. In looking at the funnel, users are most active in the engagement stage. The treatment group (61.7%) spent more time engaged with the page than the control group. Looking at step-over-step rates however, we can see a lower conversion for the treatment (17.8%) than control group (23.1%). This is likely  because the treatment group already had more engaged users already (61.7% vs. 36.8%). We can also see that retention improved in the treatment group as well (+2.48%).
 
 
 ### Recommendations
