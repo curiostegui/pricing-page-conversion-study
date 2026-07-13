@@ -167,6 +167,32 @@ The behavioral funnel, looks at which stage of the customer journey users conver
 
 ![](images/Screenshot-2026-07-12-210131.png)<!-- -->
 
-### Recommendations
+## Summary
 
-### Limitations
+The new pricing page generated positive results. The conversion rate went from 8.5% to 11.0%. It was found to be statistically signficant life og +2.44pp (p=0.0042). This did not negatively impact any of our guardrail metrics.
+
+### Casual Inference 
+
+There were three casual inferenece methods performed - CUPED, Difference-in-Differences and OLS regression to confirm that the lift is can be attributed to the treatment and not pre-existing behavior from users or natural trends. In the three models created which contained a mix of different variables, he treatment effect remained stable and ranged from 2.44pp to 2.76pp.
+
+### Audience/Devices
+
+In looking deeper at the 2.44pp lift, the free trial users drove a large part of it. By device desktop (+3.60pp) outperformed mobile (+2.72pp). Tablet users showed a negative trend (-2.83pp) though not found to be significant.
+
+Looking at the behavioral funnel, it revealed the biggest treatment impact was at the engagement stage. 61.7% of those in the treatment group  spent meaningful time on the page versus 36.8% of control users.
+
+## Recommendation
+
+Given the positive results, we should rollout the new pricing page, with an initial rollout for free trial users. This segment saw the most impact and therefore, we should start with this group.
+
+## Limitations
+
+- It's important to note that this data was synthetically generated to simulate SaaS subscription user behavior. It does not fully capture the complexities of actual data that might dilute the effect of the treatment such as seasonality and multi-device behavior.
+-   
+
+## Next steps
+
+- Desktop mode outperformed mobile by a full percentage point. Consider a version of pricing page specifically designed for mobile screens in mind.
+- The 3-tier layout page saw a negative trend for tablet users. Investigate this further. Maybe the page doesn't render well on Tablet screens.
+- Treatment users steered towards annual plans at a higher rate (+5.67pp) but it was not found to be statistically significant. A follow up experiment with a larger sample size could better confirm this.
+
