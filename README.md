@@ -1,20 +1,18 @@
-## SaaS Pricing Page A/B Test & Causal Inference Conversion Study - 
+## SaaS Pricing Page A/B Test & Causal Inference Conversion Study 
 
-
+In this project, I'll be investigating whether the re-design of a SaaS companies pricing page will improve conversions. The new pricing page will replace a basic monthly/annual toggle with a 3-tier side-by-side layout feature clear plan comparisons. A 30-day randomized experiment was conducted using 5,000 users.
 
 ## Objective
 
-This project analyzes whether song lyrics have predictive power in determining if a listener will skip or complete a track. Using my listening data from Spotify, machine learning models were built and compared with two distinct features: One that uses audio characteristics alone (tempo, valence, energy, etc. and another containing and audio and lyric data.
+The goal is to determine whether the redesigned pricing page will lead to greater improvements in the conversion rate, revenue, and annual subscriptions without increasing churn. 
 
 ## Approach
 
-- Combined a personal listening history export of +150,000 rows, multiple Kaggle datasets with audio metadata (tempo, valence, energy, etc.), and lyrics scraped from AZLyrics using a custom web scraper.
-- Manually built artist-to-genre dictionaries to fill in missing genre values using domain knowledge, handling 200+ rows of missing data.
-- Feature engineered different variables, such as the binary classification label (tracks skipped vs. completed), and extracted the hour of day, day of week, and month from the timestamp data.
-- Process lyrics using Natural Language Processing (NLP). Applied TF-IDF with stop word removal to convert raw lyrics into numeric features for modeling.
-- Used StandardScaler to normalize all numerical audio features before modeling.
-- Trained and compared six machine learning models. Built Elastic Net, XGBoost, and LSTM models with two feature sets: audio features alone vs audio features + lyrics.
-
+- Checked randomization across 6 pre-experiment variables using chi-square and t-tests.
+- Performed A/B testing using chi-square and Mann-Whitney tests across primary and secondary metrics, along with power analysis to confirm adequate sample size.
+- Used three causal inference methods - CUPED, Difference-in-Differences (DiD), and OLS regression - to verify the results of the A/B test.
+- Conducted subgroup analysis breakdown across plan type, device, age, and country to see which user segment groups responded best to the treatment.
+- Created a behavior funnel to see where the treatment had the most impact across user journey.
 
 ## Key Insights
 
