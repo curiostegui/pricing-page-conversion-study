@@ -12,7 +12,7 @@ The goal is to determine whether the redesigned pricing page will lead to greate
 - Performed A/B testing using chi-square and Mann-Whitney tests across primary and secondary metrics, along with power analysis to confirm adequate sample size.
 - Used three causal inference methods - CUPED, Difference-in-Differences (DiD), and OLS regression - to verify the results of the A/B test.
 - Conducted subgroup analysis breakdown across plan type, device, age, and country to see which user segment groups responded best to the treatment.
-- Created a behavior funnel to see where the treatment had the most impact across user journey.
+- Created a behavior funnel to see where the treatment had the most impact across the user journey.
 
 ## Key Insights
 
