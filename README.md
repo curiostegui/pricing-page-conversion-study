@@ -1,10 +1,6 @@
 ## SaaS Pricing Page A/B Test & Causal Inference Conversion Study - 
 
-This project analyzes whether song lyrics have predictive power in determining if a listener will skip or complete a track. Using my listening data from Spotify, machine learning models were built and compared with two distinct features: One that uses audio characteristics alone (tempo, valence, energy, etc. and another containing and audio and lyric data.
 
-For the full report [click here](https://github.com/curiostegui/skip_prediction/blob/main/analysis-report.md)
-
-To access the Tableau dashboard [click here](https://public.tableau.com/app/profile/christian.uriostegui/viz/SpotifyTableau_17717822515160/DashboardV4_) 
 
 ## Objective
 
