@@ -27,6 +27,6 @@ The goal is to determine whether the redesigned pricing page will lead to greate
  ## Impact
  Delivered a recommendation plan that included the rollout of the redesigned pricing page, prioritizing free-trial users. In this plan, follow-up experiments and pain points were identified.
  
-#### Keywords: Python, Tableau, A/B testing, Causal Inference, Difference-in-Differences, CUPED, OLS Regression, Statistical Testing, Chi-square Test, Mann-Whitney U, Power Analysis, Subgroup Analysis, Funnel Analysis, SaaS, Subscription Analysis, Product Analytics
+#### Keywords: Python, A/B testing, Causal Inference, Difference-in-Differences, CUPED, OLS Regression, Statistical Testing, Chi-square Test, Mann-Whitney U, Power Analysis, Subgroup Analysis, Funnel Analysis, SaaS, Subscription Analysis, Product Analytics
  
  
