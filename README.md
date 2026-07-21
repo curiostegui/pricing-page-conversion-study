@@ -1,6 +1,9 @@
-## SaaS Pricing Page A/B Test & Causal Inference Conversion Study 
+## Pricing Page A/B Test & Causal Inference Conversion Study 
 
 In this project, I'll be investigating whether the re-design of a SaaS companies pricing page will improve conversions. The new pricing page will replace a basic monthly/annual toggle with a 3-tier side-by-side layout feature clear plan comparisons. A 30-day randomized experiment was conducted using 5,000 users.
+
+For the full report [click here](https://github.com/curiostegui/pricing-page-conversion-study/blob/main/analysis-report.md)
+
 
 ## Objective
 
